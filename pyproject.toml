@@ -1,0 +1,26 @@
+[project]
+name = "myself_code_domainQuickwork"
+version = "0.1.0"
+description = "自己写代码吧，不要GPT了。"
+authors = [
+    {name = "Boxer-egg", email = "tarsqing@gmail.com"},
+]
+dependencies = [
+    "requests>=2.32.3",
+    "beautifulsoup4>=4.12.3",
+    "lxml>=5.3.0",
+    "aiodns>=3.2.0",
+    "pycares>=4.4.0",
+    "pyopenssl>=24.2.1",
+]
+requires-python = ">=3.13"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
